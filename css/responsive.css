@@ -1,0 +1,48 @@
+@media (max-width:647px) {
+    .body span{
+        font-size: 31px;
+    }
+    .body h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:455px) {
+    .body span{
+        font-size: 21px;
+    }
+    .body h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:811px) {
+    .app h2{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:600px) {
+    .app h2{
+        font-size: 40px;
+    }
+    .appImg{
+        height: 400px;
+    }
+}
+
+@media (max-width:477px) {
+    .app h2{
+        font-size: 20px;
+    }
+    .appImg{
+        height: 200px;
+    }
+    .app{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
